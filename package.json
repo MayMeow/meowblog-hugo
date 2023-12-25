@@ -1,0 +1,30 @@
+{
+  "name": "@themaymeow/meowblog-hugo",
+  "version": "1.0.0",
+  "description": "Generate posts from meowblog API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayMeow/meowblog-hugo.git"
+  },
+  "keywords": [
+    "blog",
+    "api",
+    "hugo",
+    "meowblog"
+  ],
+  "author": "May Meow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayMeow/meowblog-hugo/issues"
+  },
+  "homepage": "https://github.com/MayMeow/meowblog-hugo#readme",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
